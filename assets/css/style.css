@@ -3,4 +3,17 @@ body {
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-};
+}
+
+.rounded-circle {
+    height: 50px;
+    width: 50px;
+    margin-top: 25px;
+}
+
+.btn-home{
+    background: black;
+    opacity: .75;
+    border-radius: 0%;
+    border: 1px solid white;
+}
