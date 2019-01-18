@@ -22,3 +22,15 @@ body {
     height: 450px;
     width: 900px;
 }
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: silver;
+}
+
+a:visted{
+    color: white;
+}
