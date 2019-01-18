@@ -17,6 +17,9 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
+    <!--Font Awesome CDN-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
     <!--Custom CSS Style-->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
     <!--JQuery CDN-->
@@ -53,10 +56,12 @@
         </div>
 
         <div class="row d-flex justify-content-center mb-5">
-            <button type="button" class="btn btn-transparent btn-index text-white p-3 mr-2">About</a>
-                <button type="button" class="btn btn-transparent btn-index text-white p-3 ml-2 mr-2">Portfolio</button>
-                <button type="button" class="btn btn-transparent btn-index text-white p-3 ml-2 mr-2">GitHub</button>
-                <button type="button" class="btn btn-transparent btn-index text-white p-3 ml-2">Resume</button>
+            <button type="button" class="btn btn-transparent btn-index text-white p-3 mr-2"><a href="about.html">About</a></button>
+            <button type="button" class="btn btn-transparent btn-index text-white p-3 ml-2 mr-2"><a href="portfolio.html">Portfolio</a></button>
+            <button type="button" class="btn btn-transparent btn-index text-white p-3 ml-2 mr-2"><a href="https://github.com/SamTaub"
+                    target="_blank">GitHub</a></button>
+            <button type="button" class="btn btn-transparent btn-index text-white p-3 ml-2"><a href="https://drive.google.com/file/d/1qLRa1fiZBHZBKfufcZk3dU4jj0PnZNwC/view?usp=sharing"
+                    target="_blank">Resume</a></button>
         </div>
 
         <div class="row d-flex justify-content-center mt-5 mb-2">
@@ -64,7 +69,32 @@
         </div>
 
         <div class="row d-flex justify-content-center">
-            <button type="button" class="btn btn-transparent btn-index text-white p-3">Contact</button>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-transparent btn-index text-white p-4" data-toggle="modal" data-target="#exampleModal">
+                Contact
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content bg-dark text-white">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Contact</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Email: staub91@gmail.com</p>
+                            <p>Phone: (610) 547-4465</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </div>
