@@ -17,3 +17,8 @@ body {
     border-radius: 0%;
     border: 1px solid white;
 }
+
+.car-image{
+    height: 450px;
+    width: 900px;
+}
